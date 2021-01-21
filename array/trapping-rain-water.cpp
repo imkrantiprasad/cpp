@@ -11,7 +11,7 @@ int trappingWater(int arr[], int n)
         lmax[i] = max(arr[i], lmax[i - 1]);
     }
 
-    rmax[0] = arr[n - 1];
+    rmax[n - 1] = arr[n - 1];
     for (int i = n - 2; i >= 0; i--)
     {
         rmax[i] = max(arr[i], rmax[i + 1]);
