@@ -1,9 +1,6 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-// O(m+n)
-//O(1)
-
 int countInversion(int arr[], int n)
 {
     int res = 0;
